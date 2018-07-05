@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 var corsOptions = {
-  origin: 'https://codecards-53f05.firebaseapp.com/',
+  origin: 'https://codecards-53f05.firebaseapp.com',
   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
 
